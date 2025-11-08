@@ -1,5 +1,3 @@
-# Ultrasonic Distance Measurement and MATLAB Live Visualization
-
 This project combines Arduino and MATLAB to create a simple radar-like distance measurement system using the HC-SR04 ultrasonic sensor.  
 The goal was to interface embedded hardware with MATLAB for real-time data visualization, similar to how radar systems collect and process distance information from reflections.
 
@@ -8,9 +6,12 @@ The goal was to interface embedded hardware with MATLAB for real-time data visua
 ## Project Overview
 
 The Arduino continuously measures the distance to nearby objects using ultrasonic pulses, then sends that data to MATLAB over a serial connection.  
+
 MATLAB receives and plots the incoming data in real time, producing a live distance vs. time graph that updates dynamically.
 
 This project was my introduction to combining embedded systems, signal processing, and data visualization — all concepts that are essential in radar and electronic measurement systems.
+
+<img width="1389" height="712" alt="Distance_VS_Time" src="https://github.com/user-attachments/assets/980951e2-bb6d-413d-b819-bf5b891b575b" />
 
 ---
 
