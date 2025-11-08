@@ -2,7 +2,6 @@
 clear; clc; close all;
 
 distances_arr = [];  % store Arduino distances
-dt = 0.05;           % expected Arduino sample interval (50ms)
 
 % Arduino Setup
 arduino = serialport("COM3", 9600);
@@ -40,3 +39,4 @@ while isvalid(arduino)
         end
     end
 end
+
