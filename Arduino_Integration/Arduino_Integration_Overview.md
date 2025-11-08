@@ -55,14 +55,6 @@ where the division by two accounts for the pulse traveling to the object and bac
 
 ---
 
-## Future Improvements
-
-- Implement live velocity estimation using numerical differentiation of the distance data  
-- Add Doppler radar simulation alongside ultrasonic readings for comparison  
-- Integrate a GUI for real-time display and recording of sensor data  
-
----
-
 ## Tools Used
 
 - Arduino Uno R3
